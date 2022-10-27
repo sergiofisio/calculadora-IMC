@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Plus Jakarta Sans";
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100vw;
+    height: 500px;
+    margin-top: 40px;
+}
+
+div{
+    margin-bottom: 10px;
+}
+
+.container{
+    background-color: #67b637;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 40px;
+    padding: 10px;
+    width: 510px;
+}
+header{
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 16px;
+    width: 100%;
+    height: 70px;
+    margin: 5px 0;
+}
+
+.logo, .title{
+    margin: 0;
+}
+
+.logo img{
+    display: flex;
+    width: 60px;
+}
+
+h1{
+    color: #67b637;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3px;
+    width: 100%;
+    height: 100%;
+}
+
+.input-name{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+input{
+    width: 100%;
+    font-size: 20px;
+    padding-left: 3px;
+    border-radius: 10px;
+}
+
+.div-IMC{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+textarea{
+    width: 100%;
+    cursor: initial;
+    height: 140px;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+p{
+    font-weight: bold
+}
+
+button{
+    background-color: #67b637;
+    border: 3px solid white;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    width: 120px;
+    height: 45px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: white;
+    border: #67b637;
+    color: #67b637;
+}
